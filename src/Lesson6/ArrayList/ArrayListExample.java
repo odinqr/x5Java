@@ -35,7 +35,7 @@ public class ArrayListExample {
 
         Iterator<Integer> i = arr.iterator();
 
-        // удаление элемента по определенным условиям
+        // удаление элемента по определенным условиям (удаление всех четных элементов)
         for ( ; i.hasNext();) {
             Integer element = i.next();
             if (element % 2 == 0) {
